@@ -1,0 +1,48 @@
+
+.container{
+    display: flex;
+    flex-direction:column ;
+    width: 100vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+body{
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Mgh-HMYpfdUrB8wFtSGOCOzxPxFAWRo7Uw&usqp=CAU")
+}
+h1{
+    color: crimson;
+    text-align: center;
+}
+label{
+    color:darkmagenta;
+    padding: 2 rem;
+    margin: 2 rem;
+
+}
+label:hover{
+    background-color: rgb(134, 112, 17);
+}
+button{
+    border: 5px solid  greenyellow;
+    color: darkred;
+    padding: 1rem;
+    border-color: rgb(247, 20, 255);
+   
+}
+button:hover{
+    background-color: rgb(156, 205, 92);
+    
+}
+input{
+            border: 5px solid rgb(240, 28, 127);
+            margin: 1rem;
+            padding: 1rem;
+            background-color: rgb(200, 209, 209);
+}
+caption{
+    padding: 1rem;
+}
+input:hover{
+    background-color: darkorange;
+}

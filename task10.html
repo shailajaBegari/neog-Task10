@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" />
+    <title>CASH  RIGISTER</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading"><b>CASH HEADING</b></h1>
+        <p class="description"> Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+        <label for="bill-amount"><b>BILL AMOUNT</b></label>     
+         <!-- //connecting for label perpuse using for and this lable for this unit   -->
+        <input id="bill-amount"  type="text">
+
+        <label for="cash-given"><b>CASH GIVEN</b></label>
+        <input  id="cash-given" type="text" >
+        <button id="check-button"><b>CHECK</b></button>
+        <table class="change-table"   border="10"  style="color: darkslategray;">
+            <p id="error-message"></p>
+            <caption  style="color: rgba(31, 64, 250, 0.986);"><b>RETURN CHANGE</b></caption>
+            <tr>
+                <th  style="color: darkorange;" ><b>NO OF NOTES</b></th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+            </tr>
+
+            <tr>
+                <th  style="color: darkviolet;" ><b>NOTES</b></th>
+                <td><b>2000</b></td>
+                <td><b>500</b></td>
+                <td><b>100</b></td>
+                <td><b>50</b></td>
+                <td><b>20</b></td>
+                <td><b>10</b></td>
+                <td><b>1</b></td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+<script src="./index.js"></script>
+</html>
