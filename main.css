@@ -46,3 +46,6 @@ caption{
 input:hover{
     background-color: darkorange;
 }
+ul li{
+    display: inline;
+}
