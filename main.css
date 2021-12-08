@@ -1,11 +1,11 @@
 
 .container{
     text-align: center;
-    /* display: flex;
-    flex-direction:column ;
+     display:inline
+    /*flex-direction:column ;
     width: 50vw;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 body{
     text-align: center;
@@ -50,7 +50,4 @@ ul li{
 }
 footer{
     font-size: x-large;
-}
-tr{
-    text-align: center;
 }
