@@ -13,7 +13,7 @@ body{
     
 }
 h1{
-    color: crimson;
+    color: rgb(8, 8, 8);
     text-align: center;
 }
 label{
@@ -23,9 +23,9 @@ label{
 
 }
 button{
-    border: 2px solid  greenyellow;
-    color: darkred;
-    padding: 1rem;
+    border: 1px solid  greenyellow;
+    color: rgb(229, 151, 151);
+    padding: 2rem;
     border-color: rgb(247, 20, 255);
    
 }
@@ -34,9 +34,9 @@ button:hover{
     
 }
 input{
-            border: 2px solid rgb(240, 28, 127);
-            margin: 1rem;
-            padding: 1rem;
+            border: 1px solid rgb(240, 28, 127);
+            margin: 2rem;
+            padding: 2rem;
             background-color: rgb(200, 209, 209);
 }
 caption{
@@ -44,7 +44,7 @@ caption{
     text-align: center;
 }
 input:hover{
-    background-color: darkorange;
+    background-color: rgb(226, 217, 205);
 }
 ul li{
     display: inline;
