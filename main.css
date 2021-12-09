@@ -10,6 +10,8 @@
 body{
     text-align: center;
     background-color: lightgoldenrodyellow;
+    display: block;
+    margin: auto;
 }
 h1{
     color: crimson;
@@ -50,7 +52,4 @@ ul li{
 }
 footer{
     font-size: x-large;
-}
-.th{
-    text-align: center;
 }
